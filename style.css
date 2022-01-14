@@ -1,0 +1,101 @@
+@font-face {
+    font-family: 'idroid';
+    src: url('fontes/idroid.otf');
+}
+body{
+    margin: 0;
+    background-color: rgb(131, 255, 168);
+}
+header{
+    
+    background-image: linear-gradient(180deg,#3cc77a,#1A5C38);
+}
+h1{
+    padding: 10px;
+    margin: 0;
+    font-size: 23px;
+}
+.cabecalho-titulo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+nav{
+    font-size: 13px;
+    padding: 5px;
+    margin: 0;
+    background-color: #1c633c;
+}
+nav > a {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+sec.foto{
+   text-align: center;
+}
+.fotos{
+    text-align: center;
+ 
+}
+h3{
+    color: #0b4d29;
+    background-image: linear-gradient(90deg, #01d35f57, white);
+    padding: 6px;
+    margin: 0;
+ font-family: 'idroid';
+}
+section > img{
+    margin: auto;
+}
+h2{
+    color: #0b4d29;
+    padding: 20px;
+    margin: 0;
+ font-family: 'idroid';
+}
+main{
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.514);
+    padding: 15px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    border-radius: 0px 0px 10px 10px;
+}
+footer{
+    text-align: center;
+}
+.foto2 > img{
+    text-align: center;
+    width: 40%;
+}
+.fotos > picture > img{
+    text-align: center;
+    width: 100%;
+}
+.lista{
+    display: flex;
+}
+.video{
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgb(0, 148, 86);
+    text-align: center;
+    height: 300px;
+}
+.aprender{
+    border-radius: 10px;
+    padding: 10px;
+    background-color: turquoise;
+}
+.rodape{
+    padding: 10px;
+}
+nav > a:hover{
+    background-color: rgb(64, 224, 99);
+}
