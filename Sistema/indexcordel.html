@@ -6,21 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cordel</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=The+Nautigal:wght@400;700&display=swap');
+        :root{
+            
+            --font1: 'The Nautigal', cursive;
+            --font2: system-ui;
+            --font3: 'Patrick Hand', cursive;
+        }
         *{
             margin: 0px;
             padding: 0px;
             font-family: system-ui;
         }
+        
         header{
             text-align: center;
             background-color: black;
             color: white;
         }
         header > h1{
+            font-size: 7vw;
             font-variant: small-caps;
             padding-top: 50px;;
         }
         header > p{
+
             padding-bottom: 50px;
         }
         header a, footer a {
@@ -42,14 +52,18 @@
         .imagem > p{
             border-radius: 8px;
             padding: 30px 10px ;
-            width: 400px;
+            display: inline-block;
             background-color: rgba(0, 0, 0, 0.233);
         }
         section{
             line-height: 50px;
             padding-left: 20px;
-           padding-top: 30vh;
-            padding-bottom: 30vh;
+           padding-top: 10vh;
+            padding-bottom: 10vh;
+        }
+        section > p{
+            font-size: 5vw;
+            font-family: var(--font3);
         }
         footer{
             color: white;
