@@ -18,13 +18,19 @@
             padding: 0px;
             font-family: system-ui;
         }
-        
         header{
             text-align: center;
             background-color: black;
             color: white;
         }
+        .cabecalho{
+           background-image: url('https://static.significados.com.br/foto/cordel-0-cke.jpg');
+           background-size: cover;
+           
+        }
+        
         header > h1{
+
             font-size: 7vw;
             font-variant: small-caps;
             padding-top: 50px;;
@@ -46,6 +52,10 @@
             background-color: rgb(255, 255, 255); 
         }
         .imagem{
+            box-shadow: inset 1px 5px 9px black;
+            background-position: right center;
+            background-size: cove;
+            background-attachment: fixed;
             color: white;
             background-color: rgb(78, 78, 78);
         }
@@ -53,7 +63,8 @@
             border-radius: 8px;
             padding: 30px 10px ;
             display: inline-block;
-            background-color: rgba(0, 0, 0, 0.233);
+            background-color: rgba(0, 0, 0, 0.452);
+        
         }
         section{
             line-height: 50px;
@@ -62,9 +73,18 @@
             padding-bottom: 10vh;
         }
         section > p{
+            padding-bottom: 2em;
             font-size: 5vw;
             font-family: var(--font3);
         }
+        #img01{
+            background-image: url('imagenscor/background001.jpg');
+        }
+        #img02{
+            background-image: url('imagenscor/background002.jpg');
+            
+        }
+
         footer{
             color: white;
             text-align: center;
@@ -74,7 +94,8 @@
     </style>
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
+        
         <h1>Cordel Moderno</h1>
         <p>Por <a href="https://www.recantodasletras.com.br/poesias/3186743">Milton Duarte</a></p>
     </header>
@@ -91,7 +112,7 @@
             </p>
         </section>
 
-        <section class="imagem">
+        <section class="imagem" id="img01">
             <p>
                 Não é mais como era antes<br>
                 É tudo abreviado<br>
@@ -126,7 +147,7 @@
             </p>
         </section>
 
-        <section class="imagem">
+        <section class="imagem" id="img02">
             <p>
                 Tenho saudade das cartas<br>
                 Escritas com a própria mão<br>
