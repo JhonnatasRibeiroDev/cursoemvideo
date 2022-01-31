@@ -104,11 +104,16 @@
          width: 2px;
        }
        .subconteudo{
+         
          height: 300px;
          background-image:linear-gradient(90deg,transparent, rgb(255, 166, 0)), url(https://cdn.pixabay.com/photo/2018/11/04/18/11/motorcycle-3794594_960_720.jpg);
          background-attachment: fixed;
          background-size: cover;
+         display: flex;
+
+         
        }
+       
        article{
         width: 50vw;
        }
@@ -116,6 +121,17 @@
          text-align: center;
          padding: 20px;
          background-color: rgb(216, 216, 216);
+       }
+       .marcas{
+         display: flex;
+         justify-content: space-evenly;
+         height: 200px;
+         flex-wrap: wrap;
+         align-items: center;
+       }
+       .marcas img{
+         padding: 10px 90px;
+         height: 100px;
        }
        footer a{
          color: rgb(196, 127, 0);
@@ -130,6 +146,13 @@
          
        }
        
+       }
+       .mapa, iframe{
+         background-color: rgb(255, 255, 255);
+         padding: 40px;
+         width: 100%;
+         margin: auto;
+        
        }
        /*@keyframes degrade {
          to{
@@ -183,6 +206,10 @@
         text-indent: 20px;
         text-align: justify;
        }
+       .marcas{
+         padding: 30px;
+         height: 100%;
+       }
        .cabe{
          background-image: url("https://cdn.pixabay.com/photo/2021/05/27/18/15/motorcycle-6288958_960_720.jpg");
          height: 560px;
@@ -225,38 +252,13 @@
       </div>
       <div class="linha text-center text-light">----------------------------------------------------------------------------------------------------------------------------------------------------------------------------</div>
       <section>
-        <article class="text-center p-5 login">
-          <form class=" p-5">
-            <h2 class="text-warning">Login:</h2>
-           
-            <div class="form-group form-group mt-5">
-              <label >
-                <p class="text-left">Email:</p>     
-                <input class="form-control" type="email" name="" id="">
-              </label>
-            </div>
-            <div class="form-group">
-              <label >
-                <p class="text-left">Senha:</p>
-                <input class="form-control" type="password" name="" id="">
-              </label>
-            </div>
-            </div>
-            <div>
-              <button class="btn btn-outline-warning">
-                Login
-              </button>
-            </div>
-          </form>
-      </article>
-      <div class="meio"></div>
         <article class="text-center p-5 cadastro">
           <form class=" p-5">
-            <h2 class="text-warning">Cadastro:</h2>
+            <h2 class="text-warning">Contato:</h2>
             <div class=" form-group mt-5">
               <label >
                 <p class="text-left">Nome:</p>
-                <input class="form-control" type="text" name="" id="">
+                <input class="form-control" placeholder="Seu nome..." type="text" name="" id="">
               </label>
             </div>
             <div class="form-group">
@@ -285,8 +287,19 @@
           </form>
       </article>
       </section>
+      <div class="mapa">
+        <h2 class="text-center text-warning">Nossa localização:</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7961.194708544492!2d-42.23201519999999!3d-3.8961257000000056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1643657413880!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <h2 class="text-center pt-3">marcas:</h2>
+      <div class="marcas">
+          <div><img src="https://logodownload.org/wp-content/uploads/2014/04/honda-motos-logo-9.png" alt=""></div>
+          <div><img src="https://lezebre.lu/images/detailed/18/30952-yamaha.png" alt=""></div>
+          <div><img src="https://logodownload.org/wp-content/uploads/2017/04/suzuki-logo-1-1.png" alt=""></div>
+      </div>
       <div class="subconteudo">
-
+       
+          
       </div>
     </main>
     <footer>
