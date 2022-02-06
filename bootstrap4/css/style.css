@@ -1,0 +1,10 @@
+.caixa{
+    padding: 50px 0px;
+    border-bottom:1px solid rgb(228, 228, 228);
+}
+@media (max-width:765px) {
+    .rodape{
+        text-align: center;
+    }  
+}
+
